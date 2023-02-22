@@ -12,7 +12,6 @@ int print_last_digit(int r)
 {
 if (r < 0)
 r *= -1;
-else
 _putchar((r % 10) + '0');
 return (r % 10);
 }
